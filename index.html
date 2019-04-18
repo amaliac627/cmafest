@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CMA Music Festival</title>
+    <!-- META -->
+    <meta charset="utf-8">
+    <!-- CSS -->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body onload="audiorandom();">
+
+
+    <!-- PAGE CONTENT -->
+    <div id="wrapper">
+
+        <div id="headerband">
+            <header>
+                <object id="logo" data="img/cmafest.svg" type="image/svg+xml">
+                    <img src="img/cmafest.png" alt="CMA fest logo">
+
+                </object>
+
+
+
+                <div id="festitle">
+                    <div class="musicfest">CMA MUSIC FESTIVAL
+                        <br> JUNE 9-12, 2016, 6 PM
+                        <br> NASHVILLE, TN</div>
+
+
+
+                </div>
+
+            </header>
+            <div id="party">
+                COUNTRY MUSIC’S BIGGEST PARTY
+            </div>
+            <div>
+                <object id="bandsvg" data="img/band.svg" type="image/svg+xml">
+                    <img src="img/band.png" alt="angler fish 1">
+
+                </object>
+            </div>
+            <div id="party2">
+                COUNTRY MUSIC’S BIGGEST PARTY
+            </div>
+        </div>
+
+
+
+
+
+        <div id="activities">
+            <div id="act1">
+                <p>
+                    <object class="fan" class="left" data="img/fanfair.svg" type="image/svg+xml">
+                        <img src="img/fanfair.png" alt="angler fish 1">
+                        <!--            ALWAYS HAVE PNG ALONG WITH SVG-->
+                    </object>
+                    Fan Fair X, located inside of the Music City Center, is where you can truly live the Ultimate Country Music Fan Experience.</p>
+                <hr class="lineevent" />
+                <p>
+                    <object class="right" data="img/nissan.svg" type="image/svg+xml">
+                        <img src="img/nissan.png" alt="angler fish 1">
+                        <!--            ALWAYS HAVE PNG ALONG WITH SVG-->
+                    </object>
+                    Nissan Stadium is where all your favorite artists will be, including Carrie Underwood, Blake Shelton, Cole Swindell, and more!</p>
+                <hr class="lineevent" />
+                <p>
+                    <object class="left" data="img/Riverfront.svg" type="image/svg+xml">
+                        <img src="img/Riverfront.png" alt="angler fish 1">
+                        <!--            ALWAYS HAVE PNG ALONG WITH SVG-->
+                    </object>
+                    The Riverfront Stage is the epicenter of daytime music with must-see lineups featuring the newest faces of Country Music with the legends you know and love. </p>
+                <hr class="lineevent" />
+            </div>
+            <hr id="vertical">
+            <div id="act2">
+                <p>
+                    <object class="right" data="img/thepark.svg" type="image/svg+xml">
+                        <img src="img/thepark.png" alt="the park">
+
+                    </object>
+                    Come to The Park Stage to see more of your favorites! The Park Stage is located between the Hilton Suites and the Country Music Hall of Fame.</p>
+                <hr class="lineevent">
+                <p>
+                    <object class="left" data="img/broadwaystage.svg" type="image/svg+xml">
+                        <img src="img/broadwaystage.png" alt="broadway stage">
+                        <!--            ALWAYS HAVE PNG ALONG WITH SVG-->
+                    </object>
+                    Be sure to stop by the Broadway Stage at Hard Rock Café, located in the at Broadway and First Ave.
+                </p>
+                <hr class="lineevent">
+                <p>
+                    <object class="right" data="img/cmaworld.svg" type="image/svg+xml">
+                        <img src="img/cmaworld.png" alt="cma world">
+                        <!--            ALWAYS HAVE PNG ALONG WITH SVG-->
+                    </object>
+                    International Country artists make the pilgrimage to Music City each year to perform at CMA World GlobaLive!, a free, international Country Music showcase in downtown Nashville.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <object id="record1" class="recordless" data="img/vinyl-record.svg" type="image/svg+xml">
+        <img src="img/vinyl-record.png" alt="music button">
+    </object>
+
+    <audio id="audioplayer" src="" type="audio/mp3" loop> Browser doesn't support audio
+    </audio>
+
+    <object id="record2" class="opacityless" data="img/recordline.svg" type="image/svg+xml">
+        <img src="img/recordline.png" alt="music button">
+    </object>
+
+    <button id="soundButton" type="button" onclick="audioToggle('')"></button>
+
+
+
+    <!-- JAVASCRIPT-->
+    <script src="main.js"></script>
+</body>
+
+</html>
